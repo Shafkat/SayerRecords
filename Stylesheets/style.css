@@ -1,0 +1,17 @@
+//This file contains the style preferences for the site.
+
+/*
+centerbox
+{
+    background-color:#FFFFFF;
+    position: absolute;
+    font-size: 15;
+    height: 50%;
+    width: 50%;
+}
+*/
+
+#records
+{
+	position: fixed;
+}
