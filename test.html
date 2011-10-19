@@ -6,8 +6,8 @@
     <title>SoothSayer</title>
     
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
-    <link rel="stylesheet" href="./Stylesheets/jquery-ui-1.8.16.custom.css" type="text/css" />
-    <link rel="stylesheet" href="./Stylesheets/style.css" type="text/css" />
+    <link rel="stylesheet" href="./stylesheets/jquery-ui-1.8.16.custom.css" type="text/css" />
+    <link rel="stylesheet" href="./stylesheets/style.css" type="text/css" />
     <script>
     $(document).ready(function(){
 	 	//$('#rec').trigger('create');
@@ -36,12 +36,14 @@ width:1050px; border-radius: 25px;">
 		<br>
 		<br>
 		<br>
-			<button class="ui-button ui-button-text-only ui-widget ui-state-default ui-corner-all" id="records">
-			   <span class="ui-button-text">The Records</span>
-			</button>
-			<button class="ui-button ui-button-text-only ui-widget ui-state-default ui-corner-all" id="sayers">
-			   <span class="ui-button-text">The Sayers</span>
-			</button>
+			<div id="buttons">
+				<a href="records.html"><button class="ui-button ui-button-text-only ui-widget ui-state-default ui-corner-all" id="records">
+				   <span class="ui-button-text">The Records</span>
+				</button></a>
+				<a href="sayers.html"><button class="ui-button ui-button-text-only ui-widget ui-state-default ui-corner-all" id="sayers">
+				   <span class="ui-button-text">The Sayers</span>
+				</button></a>
+			</div>
     </div>
     </center>
   </body>
