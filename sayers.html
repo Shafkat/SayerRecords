@@ -10,10 +10,18 @@
     <link rel="stylesheet" href="./stylesheets/style.css" type="text/css" />
     <script>
     $(document).ready(function() {
-        $("#sayers").hover(function () {
-            $('#logo').animate({backgroundPosition: '500px 150px'});
-        });
-    });
+		$( "#sayers" ).click(function() {
+			$( "#logo" ).addClass( "newClass", 1000, callback() );
+			return false;
+		});
+
+		function callback() {
+			alert('hey!');
+            setTimeout(function() {
+				$( "#logo" ).removeClass( "newClass" );
+			}, 1500 );
+		}
+	});
     </script>
     <body style="background-color:#E9E9E9;">
   </head>
