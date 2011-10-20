@@ -8,13 +8,8 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
     <link rel="stylesheet" href="./stylesheets/jquery-ui-1.8.16.custom.css" type="text/css" />
     <link rel="stylesheet" href="./stylesheets/style.css" type="text/css" />
-    <script>
-    $(document).ready(function() {
-        $("#sayers").hover(function () {
-            $('#logo').animate({backgroundPosition: '500px 150px'});
-        });
-    });
-    </script>
+	<script src="./js/mainscript.js"></script>
+
     <body style="background-color:#E9E9E9;">
   </head>
   <body>
@@ -30,6 +25,18 @@ width:1050px; border-radius: 25px;">
 			<br>
 			<br>
 			<img id = "logo" src="coollogo_com-97245047.png">
+				<div id="tabs">
+					<ul>
+						<li><a href="#tabs-1">Sayers</a></li>
+						<li><a href="#tabs-2">Mentors</a></li>
+					</ul>
+					<div id="tabs-1">
+						<p>Sayers Bio goes here.</p>
+					</div>
+					<div id="tabs-2">
+						<p>The cause of our music.</p>
+					</div>
+				</div>
 		</div><!-- /page -->
 	<center>
   </body>
