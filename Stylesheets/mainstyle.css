@@ -1,0 +1,25 @@
+//This file contains the style preferences for the site.
+
+/*
+centerbox
+{
+    background-color:#FFFFFF;
+    position: absolute;
+    font-size: 15;
+    height: 50%;
+    width: 50%;
+}
+*/
+
+#buttons
+{
+	background-color: #E9E9E9;
+}
+
+#footer
+{
+    background-color:black;
+    height: 100px; 
+    width:100%; 
+    border-radius: 25px;
+}
