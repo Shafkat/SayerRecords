@@ -23,3 +23,17 @@ centerbox
     width:100%; 
     border-radius: 25px;
 }
+
+#sayers_backdrop
+{
+
+    padding: 10px; 
+    border:1px solid white; 
+    border-width: 0 1px 1px 1px 1px;
+    margin:0 auto;
+    background-color:white; 
+    height: 500px;
+    width:1050px; 
+    border-radius: 25px;
+    
+}
