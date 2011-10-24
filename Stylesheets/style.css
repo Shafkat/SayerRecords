@@ -6,7 +6,7 @@
 
 * { margin: 0; padding: 0; }
 html, body { height: 100%; overflow: hidden; background: #E9E9E9; }
-body { font: 14px Calibri, serif; }
+body { font: 14px Calibri, calibri; }
 #page-wrap { width: 960px; padding: 0 0 0 15px; margin: 0 auto; overflow: hidden; height: 100%; }
 
 .info-col { float: left; width: 132px; height: 100%; padding: 50px 0 0 0; }
@@ -23,20 +23,20 @@ body { font: 14px Calibri, serif; }
 dt { padding: 5px; background: #900; color: black; border-bottom: 1px solid white; border-right: 1px solid white; }
 dd { position: absolute; left: -9999px; top: -9999px; width: 299px; background: #900; padding: 10px; color: black; border-right: 1px solid white; }
 
-dt:nth-of-type(1) { background: #f2f2f2; }
-dd:nth-of-type(1) { background: #f2f2f2; }
+dt:nth-of-type(1) { background: #e9e9e9; }
+dd:nth-of-type(1) { background: #e9e9e9; }
 
-dt:nth-of-type(2) { background: #cacaca; }
-dd:nth-of-type(2) { background: #c8c8c8; }
+dt:nth-of-type(2) { background: #595855; }
+dd:nth-of-type(2) { background: #595855; }
 
-dt:nth-of-type(3) { background: #224080; }
-dd:nth-of-type(3) { background: #294684; }
+dt:nth-of-type(3) { background: #a2aba5; }
+dd:nth-of-type(3) { background: #a2aba5; }
 
-dt:nth-of-type(4) { background: #3367a0; }
-dd:nth-of-type(4) { background: #396ba2; }
+dt:nth-of-type(4) { background: #cae6e8; }
+dd:nth-of-type(4) { background: #cae6e8; }
 
-dt:nth-of-type(5) { background: #538cb7; }
-dd:nth-of-type(5) { background: #588fb9; }
+dt:nth-of-type(5) { background: #313f54; }
+dd:nth-of-type(5) { background: #313f54; }
 
 /*dt:nth-of-type(6) { background: #656b60; }
 dd:nth-of-type(6) { background: #656b60; }*/
