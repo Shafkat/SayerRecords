@@ -38,6 +38,16 @@ centerbox
     
 }
 
+#fb_icon
+{
+	left: 50%;
+}
+
+#twt_icon
+{
+	margin-left: 70%;
+}
+
 #sayers_left
 {
     position:absolute;
