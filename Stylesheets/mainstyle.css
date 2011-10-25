@@ -37,3 +37,25 @@ centerbox
     border-radius: 25px;
     
 }
+
+#sayers_left
+{
+    position:absolute;
+    margin-left:-4%;
+    height: 7%;
+    opacity: 0.5;
+}
+
+#sayers_right
+{
+    height: 7%;
+    position:absolute;
+    opacity: 0.5;
+}
+
+#sayers_table
+{
+    width:50%; 
+    margin-left:6%; 
+    margin-right:5%;
+}
