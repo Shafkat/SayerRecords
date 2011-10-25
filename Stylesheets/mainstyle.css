@@ -51,7 +51,7 @@ centerbox
 #sayers_left
 {
     position:absolute;
-    margin-left:-4%;
+    margin-left:-3%;
     height: 7%;
     opacity: 0.5;
 }
@@ -66,6 +66,6 @@ centerbox
 #sayers_table
 {
     width:50%; 
-    margin-left:6%; 
-    margin-right:5%;
+    margin-left:7%; 
+    margin-right:6%;
 }
