@@ -2,7 +2,7 @@
 
 $(document).ready(function() {
 	$('#player').hide();
-	$("#records").hover(function () {
+	$("#records_image").hover(function () {
 		$('#records_image').fadeOut(3000);
 		$('#records_image').hide(2500, function() { $("#player").fadeIn(2500);});
 		//$('#tabs').tabs();

@@ -6,19 +6,21 @@
 
 * { margin: 0; padding: 0; }
 html, body { height: 100%; overflow: hidden; background: #E9E9E9; }
-body { font: 14px calibri, calibri; }
+body { font: 12px calibri, calibri; }
 #page-wrap { width: 900px; padding: 0 0 0 15px; margin: 0 auto; overflow: hidden; height: 100%; }
 
-.info-col { float: left; width: 132px; height: 100%; padding: 50px 0 0 0; }
+.info-col { float: left; width: 127px; height: 100%; padding: 50px 0 0 0; }
 .info-col h2 { text-align: center; color: white; font-weight: normal; padding: 25px 0; }
 
-.image { height: 150px; text-indent: -9999px; display: block; border-top-left-radius: 10px; border-top-right-radius: 10px; box-shadow: -2px -1px 10px #000000; -moz-box-shadow: -2px -1px 10px #000000; -webkit-box-shadow: -2px -1px 10px #000000;}
+.image { height: 200px; text-indent: -9999px; display: block; border-top-left-radius: 10px; border-top-right-radius: 10px; box-shadow: -2px -1px 10px #000000; -moz-box-shadow: -2px -1px 10px #000000; -webkit-box-shadow: -2px -1px 10px #000000;}
 
-.batman { background: url(../images/more_images/lead_sayer.jpg) center center no-repeat; }
-.spiderman { background: url(../images/more_images/riff_sayer_UGres.png) center center no-repeat; }
-.aquaman { background: url(../images/more_images/vox_sayer_nsu.jpg) center center no-repeat; }
-.ironman { background: url(../images/more_images/Pavel.jpg) center center no-repeat; }
-.superman { background: url(../images/more_images/superman.jpg) center center no-repeat; }
+.shishir { background: url(../images/more_images/lead_sayer.jpg) center center no-repeat; }
+.reza { background: url(../images/more_images/riff_sayer_UGres.png) center center no-repeat; }
+.majed { background: url(../images/more_images/vox_sayer_nsu.jpg) center center no-repeat; }
+.pavel { background: url(../images/more_images/Pavel.jpg) center center no-repeat; }
+.aiman { background: url(../images/more_images/aiman_2.jpg) center center no-repeat; }
+.imrul { background: url(../images/more_images/imrul.jpg) center center no-repeat; }
+.daiyan { background: url(../images/more_images/daiyan.png) center center no-repeat; }
 
 dt { padding: 5px; background: #900; color: black; border-bottom: 1px solid lightgrey; border-right: 1px solid lightgrey; }
 dd 

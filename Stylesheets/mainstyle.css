@@ -69,3 +69,8 @@ centerbox
     margin-left:7%; 
     margin-right:6%;
 }
+
+#player
+{
+	left: 50%;
+}

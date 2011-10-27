@@ -72,25 +72,26 @@
 .ttw-music-player .player .title {
     color: #efefef;
     text-shadow: 0 1px 1px rgba(0, 0, 0, .8);
-    font-family: 'Lato Bold', arial, sans-serif;
+    font-family: 'Lato Bold', calibri, sans-serif;
     font-weight: bold;
     font-size: 14px;
 }
 
 .ttw-music-player .artist-outer {
     color: #727272;
-    font-family: 'Lato Italic', arial, sans-serif;
+    font-family: 'Lato Italic', calibri, sans-serif;
     font-style: italic;
 }
 
 .ttw-music-player .artist {
     color: #999;
-    font-family: 'Lato', arial, sans-serif;
+    font-family: 'Lato', calibri, sans-serif;
     margin-left: 4px;
 }
 
 .ttw-music-player .rating {
-    width: 75px;
+    
+    width: 35px;
     height: 16px;
 }
 
@@ -249,9 +250,9 @@
 
 
 .ttw-music-player .tracklist .title {
-    width: 164px;
+    width: 75px;
     display: inline-block;
-    padding: 0 0 0 14px;
+    padding: 0 0 0 -15%;
     cursor: pointer;
 }
 
@@ -318,7 +319,7 @@
 
 .ttw-music-player .more {
     display:none;
-    font-family: 'Lato Italic', arial, sans-serif;
+    font-family: 'Lato Italic', calibri, sans-serif;
     font-style: italic;
     font-size: 11px;
     text-shadow: 0 1px 1px rgba(0, 0, 0, .6);
