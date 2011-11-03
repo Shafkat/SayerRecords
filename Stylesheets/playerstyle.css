@@ -91,7 +91,7 @@
 
 .ttw-music-player .rating {
     
-    width: 35px;
+    width: 75px;
     height: 16px;
 }
 
@@ -209,6 +209,7 @@
 
 /** Track List **/
 .ttw-music-player .tracklist {
+	float: left;
     padding: 10px 20px;
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, .15), 0 1px 0 rgba(255, 255, 255, .04);
     -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .15), 0 1px 0 rgba(255, 255, 255, .04);
@@ -222,12 +223,14 @@
 }
 
 .ttw-music-player .tracklist ol {
-    margin: 0;
+    margin-left: 12%;
     padding: 0;
     overflow:hidden;
 }
 
 .ttw-music-player .tracklist li {
+	float: left;
+    width: 250px;
     text-shadow: 0 1px 1px rgba(0, 0, 0, .6);
     background: transparent url(../images/tracklist-item-bg.png) repeat-x bottom left scroll;
     padding: 10px 0 10px 0;
@@ -250,7 +253,7 @@
 
 
 .ttw-music-player .tracklist .title {
-    width: 75px;
+    width: 100px;
     display: inline-block;
     padding: 0 0 0 -15%;
     cursor: pointer;
@@ -276,21 +279,21 @@
 
 .ttw-music-player .rating-bar {
     height: 10px;
-    width: 3px;
+    width: 0;
     display: block;
     float: left;
     cursor: pointer;
     background: transparent url(../images/rating-bar.png) no-repeat 0 0 scroll;
 }
 
-.ttw-music-player .rating-bar.on,
+.ttw-music-player .rating-bar.off,
 .ttw-music-player .rating-bar:hover,
 .ttw-music-player .rating-bar.hover {
     background: transparent url(../images/rating-bar-on.png) no-repeat 0 0 scroll;
 }
 
 .ttw-music-player .buy {
-    width: 62px;
+    width: 0;
     height: 16px;
     display: inline-block;
     position: absolute;
