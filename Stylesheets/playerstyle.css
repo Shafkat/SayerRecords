@@ -3,7 +3,7 @@
 .ttw-music-player {
     width: 370px;
     margin: 60px auto;
-    font-family: 'Lato', arial, sans-serif;
+    font-family: 'Lato', calibri, sans-serif;
 }
 
 .ttw-music-player .player {
@@ -251,9 +251,9 @@
 }
 
 
-
+/*Edit Track Title in Tracklist*/
 .ttw-music-player .tracklist .title {
-    width: 100px;
+    width: 120px;
     display: inline-block;
     padding: 0 0 0 -15%;
     cursor: pointer;
