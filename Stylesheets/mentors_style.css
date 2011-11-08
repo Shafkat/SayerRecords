@@ -14,7 +14,7 @@ body { font: 14px calibri, calibri; }
 
 .image { height: 150px; height: 250px; text-indent: -9999px; display: block; border-top-left-radius: 10px; border-top-right-radius: 10px; box-shadow: -2px -1px 10px #000000; -moz-box-shadow: -2px -1px 10px #000000; -webkit-box-shadow: -2px -1px 10px #000000;}
 
-.batman { background: url(../images/more_images/fuad_bhai.jpg) center center no-repeat; }
+.batman { background: url(../images/more_images/fuadbhai.jpg) center center no-repeat; }
 .spiderman { background: url(../images/more_images/riff_sayer_UGres.png) center center no-repeat; }
 .aquaman { background: url(../images/more_images/vox_sayer_nsu.jpg) center center no-repeat; }
 .ironman { background: url(../images/more_images/Pavel.jpg) center center no-repeat; }
