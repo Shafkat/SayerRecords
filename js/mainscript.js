@@ -16,6 +16,15 @@ $(document).ready(function() {
         $("#records_right").css('opacity', 0.5);
     });
     
+    $("#sayerstudios_up").mouseenter(function (){
+        $("#sayerstudios_up").css('opacity', 0.75);
+    });
+    
+    $("#sayerstudios_up").mouseleave(function (){
+        $("#sayerstudios_up").css('opacity', 0.5);
+    });
+    
+    
 	$('#page-wrap').hide();
     $('#sayers_left').css('opacity', 0);
     $('#sayers_right').css('opacity', 0);
